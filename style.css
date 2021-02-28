@@ -1,0 +1,18 @@
+fieldset{
+    border-radius: 1em;
+}
+h1{
+    font-weight: 800;
+    text-align: center;
+    color: aqua;
+}
+#name{
+    align-content: center;
+    font-size: 2em;
+}
+#check{
+    margin-left: 900px;
+    font-size: 1em;
+    text-align: center;
+    position: absolute;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Quiz app</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+          apiKey: "AIzaSyDdvY_78h_e30SGoboc59mkWAJ0bw5o-M8",
+          authDomain: "quizapp-e5b3f.firebaseapp.com",
+          databaseURL: "https://quizapp-e5b3f-default-rtdb.firebaseio.com/",
+          projectId: "quizapp-e5b3f",
+          storageBucket: "quizapp-e5b3f.appspot.com",
+          messagingSenderId: "896385598016",
+          appId: "1:896385598016:web:4f7401e7ba7f8254f995a5",
+          measurementId: "G-Z9D525MD6L"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+      </script>
+</head>
+<body>
+    
+</body>
+
+<div class="container">
+    <div class="main-content">
+        <h1>Quiz application</h1>
+        <input type="text" placeholder="please enter your name" id="name"></input><br><br>
+        <fieldset>
+            <p class="question"><b>HTML stand for</b></p>
+            <input type="radio" name="maths" id="right_1">Hyper Markup language</input><br>
+            <input type="radio" name="maths" id="wrong_1">Hyper Makeup language</input><br>
+            <input type="radio" name="maths" id="wrong_1">Hyper Madeupr language</input><br>
+      
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <p class="question"><b>CSS stand for</b></p>
+            <input type="radio" name="president" id="right_2">Cascading Style Sheets</input><br>
+            <input type="radio" name="president" id="wrong_2">Cascading Stand Sheets</input><br>
+            <input type="radio" name="president" id="wrong_2">Cascading Stuff Sheets</input><br>
+      
+
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <p class="question"><b>Javascript is ____ language</b></p>
+            <input type="radio" name="math" id="right_3">Programming</input><br>
+            <input type="radio" name="math" id="wrong_3">hyper</input><br>
+            <input type="radio" name="math" id="wrong_3">Computer</input><br>
+      
+
+        </fieldset>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <button  id="check" onclick="check()">Check</button>
+
+    <script src="app.js"></script>
+    <script src="timer.js"></script>
+
+        
+
+    </div>
+</div>
+</html>
